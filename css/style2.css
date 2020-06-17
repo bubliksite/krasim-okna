@@ -1,0 +1,224 @@
+* {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-main-color {
+	color: #292929;
+}
+
+.text-red {
+	color: #C72A0C;
+}
+
+.h-number {
+	font-size: 72px;
+}
+
+.stages-block, .portfolio-block {
+	background-color: #f7f7f7;
+}
+
+.contact-block {
+	background-color: #e7e7e7;
+}
+
+.stages-block h1 {
+	margin-bottom: 0;
+}
+
+.no-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.no-link:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.left-dashed-border {
+	border-left: 1px dashed #292929;
+}
+
+.right-dashed-border {
+	border-right: 1px dashed #292929;
+}
+
+.right-dashed-group {
+	margin-left: -5vw;
+	margin-right: 1vw;
+}
+
+.red-rectangle {
+	width: 88px;
+	height: 12px;
+	background-color: #C72A0C;
+}
+
+.red-chevron {
+	background: url("../img/chevron.png") no-repeat;
+	background-size: 100% 100%;
+	height: 81px;
+}
+
+.red-chevron-right {
+	height: 47px;
+	background: url("../img/chevron-right.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.red-chevron h1, .red-chevron-right h1 {
+	margin: auto;
+	-ms-margin-top: 5px;
+}
+
+.chevrones-group {
+	margin-left: -3vw;
+}
+
+.main-block {
+	height: 740px;
+	background: url("../img/chagall.jpg") no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+
+.main-block h1 {
+	font-size: 70px;
+	line-height: 82px;
+	font-weight: bold;
+}
+
+.main-block h4 {
+
+}
+
+.center-block {
+	position: absolute;
+	top: 20vh;
+}
+
+.logo img {
+	max-width: 50vw;
+}
+
+.red-btn {
+	background-color: #C72A0C;
+	border-radius: 41px;
+	font-size: 18px;
+	-webkit-transition: all 0.3s ease;;
+	-moz-transition: all 0.3s ease;;
+	-o-transition: all 0.3s ease;;
+	transition: all 0.3s ease;
+}
+
+.red-btn:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	box-shadow: 0px 4px 4px #78372B;
+}
+
+.scroll {
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: -13vh;
+}
+
+.feedback-block input, .feedback-block textarea {
+	border-radius: 0;
+	border: 1px solid #A0A0A0;
+	font-family: 'Roboto';
+	font-size: 18px;
+	line-height: 21px;
+	color: #959292;
+}
+
+.feedback-block input {
+	height: 44px;
+}
+
+.feedback-block textarea {
+	height: 164px;
+}
+
+.feedback-block .btn {
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	line-height: 21px;
+	color: #C72A0C;
+	padding-right: 0;
+}
+
+.btn.disabled, .btn:disabled {
+	color: #959292;
+}
+
+@media screen and (max-width: 990px) {
+	.main-block {
+		max-height: 100vh;
+	}
+
+	.main-block h1 {
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	.main-block h4 {
+		font-size: 18px;
+	}
+
+	.red-rectangle {
+		width: 57px;
+		height: 5px;
+	}
+
+	.red-btn {
+		font-size: 14px;
+	}
+
+	.scroll {
+		right: 3vw;
+    	bottom: -30vh;
+	}
+
+	.h-number {
+		font-size: 64px!important;
+	}
+
+	.advantages-block h1, .stages-block h1, .compare-block h1, .portfolio-block h1, .contact-block h1 {
+		font-size: 24px;
+		text-align: center;
+	}
+
+	.advantages-block h4 {
+		font-size: 18px;
+	}
+
+	.advantages-block p, .stages-block p {
+		font-size: 14px;
+	}
+
+	.red-chevron {
+		height: 47px;
+		background-color: transparent;
+		background: url("../img/chevron.png") no-repeat;
+		background-size: 100% 100%;
+	}
+	
+	.right-dashed-border {
+		margin-right: 
+	}
+
+
+	
+}
